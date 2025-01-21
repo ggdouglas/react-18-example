@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@blueprintjs/core": "^5.16.4",
-    "@blueprintjs/datetime": "^5.3.21",
-    "@blueprintjs/datetime2": "^2.3.21",
-    "@blueprintjs/icons": "^5.17.1",
-    "@blueprintjs/select": "^5.3.9",
+    "@blueprintjs/core": "file:./packages/core/package.tgz",
+    "@blueprintjs/datetime": "file:./packages/datetime/package.tgz",
+    "@blueprintjs/datetime2": "file:./packages/datetime2/package.tgz",
+    "@blueprintjs/icons": "file:./packages/icons/package.tgz",
+    "@blueprintjs/popover2": "file:./packages/popover2/package.tgz",
+    "@blueprintjs/select": "file:./packages/select/package.tgz",
+    "@blueprintjs/table": "file:./packages/table/package.tgz",
     "date-fns": "^2.30.0",
     "normalize.css": "^8.0.1",
     "react": "^18.3.1",
